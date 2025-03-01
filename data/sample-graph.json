@@ -1,0 +1,33 @@
+{
+  "nodes": [
+    {"id": "1", "label": "Dreams"},
+    {"id": "2", "label": "Illusions"},
+    {"id": "3", "label": "Memories"},
+    {"id": "4", "label": "Reality"},
+    {"id": "5", "label": "Surrealism"},
+    {"id": "6", "label": "Imagination"},
+    {"id": "7", "label": "Consciousness"},
+    {"id": "8", "label": "Perception"},
+    {"id": "9", "label": "Time"},
+    {"id": "10", "label": "Space"}
+  ],
+  "edges": [
+    {"source": "1", "target": "2", "weight": 1.2},
+    {"source": "2", "target": "3", "weight": 0.9},
+    {"source": "3", "target": "4", "weight": 1.0},
+    {"source": "4", "target": "5", "weight": 1.5},
+    {"source": "5", "target": "1", "weight": 2.0},
+    {"source": "1", "target": "5", "weight": 1.8},
+    {"source": "2", "target": "5", "weight": 0.7},
+    {"source": "5", "target": "6", "weight": 1.3},
+    {"source": "6", "target": "7", "weight": 1.2},
+    {"source": "7", "target": "8", "weight": 0.8},
+    {"source": "8", "target": "9", "weight": 1.1},
+    {"source": "9", "target": "10", "weight": 0.9},
+    {"source": "10", "target": "1", "weight": 1.7},
+    {"source": "6", "target": "2", "weight": 1.0},
+    {"source": "3", "target": "7", "weight": 0.8},
+    {"source": "4", "target": "8", "weight": 1.2},
+    {"source": "9", "target": "5", "weight": 1.4}
+  ]
+} 
